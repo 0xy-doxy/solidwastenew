@@ -1,0 +1,135 @@
+
+ul {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content:center;
+    background-color: #9AD0C2;
+    padding: 1rem;
+    text-align: center;
+    /* margin-bottom: 3rem; */
+  }
+
+
+  nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  }
+
+  .nav1{
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  }
+
+  .nav1 a {
+    text-decoration: none;
+    color: #265073;
+  }
+
+  .nav1 a:hover {
+    background: #9AD0C2;
+    background-image: -webkit-linear-gradient(top, #f6f8f7, white);
+    background-image: -moz-linear-gradient(top, #f4faf8, #f5f8f7);
+    background-image: -ms-linear-gradient(top, #f7fbfa, #f6f9f8);
+    background-image: -o-linear-gradient(top, #f6faf9, #f8f9f9);
+    background-image: linear-gradient(to bottom, #f3f7f6, #f3f6f5);
+    text-decoration: none;
+  }
+  
+
+.ab1{
+
+    text-align: left;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #363062;
+    padding: 5rem 0 1rem 2rem;
+    margin: 0%;
+    text-decoration:underline;
+    
+
+}
+
+.ab2{
+
+    text-align: left;
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #363062;
+    padding: 2rem 0 1rem 2rem;
+    margin: 0%;
+    text-decoration:underline;
+    
+
+}
+
+.about1{
+    background-color: #2D9596;
+    padding: 0%;
+    margin: 0%;
+}
+.about2{
+    background-color: #ECF4D6;
+    padding: 0%;
+    margin: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .ol1{
+    text-align: left;
+    color: white;
+    font-family: sans-serif;
+    /* margin-bottom: 4rem; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 2;
+  }
+
+  .ol2{
+    text-align: left;
+    color: black;
+    font-family: sans-serif;
+    /* margin-bottom: 4rem; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    line-height: 2;
+  }
+
+  p {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 4rem;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 550;
+  }
+
+  .abimg1{
+    /* height: 100%; */
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+    aspect-ratio: 21/9;
+    /* object-fit: 4/3; */
+    /* width: 25%; */
+     /* float: right; */
+      margin-right: 30px;
+      /* margin-top: 2rem; */
+  }
